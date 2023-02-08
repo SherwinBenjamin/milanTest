@@ -1,0 +1,9 @@
+.button{
+    height: 60px;
+    width: 180PX;
+    background: rgba(98, 34, 237, 0.288) 30%;
+    border: 3px solid #1A0448;
+    border-radius: 15px;
+    font-size: 20px;
+    color: azure;
+}

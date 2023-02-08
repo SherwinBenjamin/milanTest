@@ -1,0 +1,43 @@
+  .imageWrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(../../utils/images/login_register_bg.png);
+    background-size: cover;
+  }
+
+  .reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .regButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .container{
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(circle at 300px 200px, transparent, #1E1E1E 30%);
+  }
+
+  .regGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width:680px) {
+    .regGrid{
+      grid-template-columns: 1fr;
+    }
+
+    .container{
+      overflow: scroll;
+    }
+  }

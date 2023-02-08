@@ -1,0 +1,65 @@
+.events-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(105,0,17,1) 0%, rgba(44,0,28,1) 48%);
+}
+
+.events-banner{
+    position: relative;
+    height: 100vh;
+    /* background: url(../../utils/images/eventlist\ bg.png) center/ cover no-repeat; */
+}
+
+.events-banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.events-banner h1{
+    /* position: absolute; */
+    font-family: mars;
+    font-size: 2.5em;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 20px;
+    /* color: rgb(240, 162, 162); */
+    /* text-shadow: 0 3px 5px rgb(51, 18, 23); */
+}
+
+.event-banner-h1{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    height: 90vh;
+    color: transparent;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FF6400 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+.events-banner p{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    /* width: 90%; */
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.events-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+}
+
+@media(max-width: 840px){
+    .events-container{
+        margin: 5em 2.5em;
+    }
+}

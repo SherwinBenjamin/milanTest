@@ -1,0 +1,11 @@
+.input{
+    height: 45px;
+    width: 15em;
+    border-radius: 10px;
+    font-size: large;
+    margin: .7em;
+    padding-left: 1em;
+    background-color: transparent;
+    border-color: azure;
+    border-style: solid;
+}

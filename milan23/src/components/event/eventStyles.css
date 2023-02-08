@@ -1,0 +1,78 @@
+@font-face {
+  font-family: mars;
+  font-weight: bold;
+  src: url("../../utils/fonts/Mars/Mars\ Bold.ttf") format("truetype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.title {
+  font-size: 64px;
+  margin: 50px;
+  font-family: mars;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 8px 4px rgba(73, 76, 82, 0.6);
+}
+.content {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  color: white;
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 20px; */
+  padding: 20px;
+  justify-content: center;
+}
+.content h2 {
+  text-align: center;
+}
+.top h3 {
+  padding: 10px 50px 10px 50px;
+  color: white;
+}
+h3 {
+  color: #ff9d5e;
+}
+.content {
+  margin: 50px;
+  color: white;
+  text-align: left;
+  justify-content: center;
+}
+.contact {
+  padding-top: 50px;
+  color: white;
+}
+.btn {
+  float: right;
+  padding: 30px;
+  margin-top: -77px;
+  /* border: solid 2px black; */
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  color: #1f1e1f;
+}
+/* .btn:hover {
+  background-color: #fce6d9;
+  color: black;
+} */
+
+.eventsdata {
+  padding: 5rem 0;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #5f2501 0%, #1f1e1f 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.items {
+  padding: 10px;
+}

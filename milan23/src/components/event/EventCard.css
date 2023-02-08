@@ -1,0 +1,53 @@
+@font-face {
+    font-family: mars;
+    font-weight: bold;
+    src: url("../../utils/fonts/Mars/Mars\ Bold.ttf") format("truetype");
+  }
+
+.event-card{
+    height: 180px;
+    margin: 0.3em 0;
+    border-radius: 5px;
+    background-color: #FC264C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* box-shadow: 6px 4px 15px 0px rgba(0,0,0,0.3); */
+}
+
+h3{
+    font-family: mars;
+    font-weight: 700;
+    font-size: 1.7em;
+    padding: 1em;
+    color: #fee8ec;
+    text-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 10px rgb(255, 255, 255),
+                0 0 13px rgba(253, 251, 251, 0.7),
+                0 0 18px rgba(255, 255, 255, 0.5);
+}
+
+.event-card-img{
+    background: linear-gradient(90deg, rgba(252,38,76,0.4) 100%, rgba(0,0,0,0) 100%), url(../../utils/images/eventcard\ bg.png) center/cover no-repeat;
+    border-radius: 5px;
+    height: 100%;
+    width: 50%;
+}
+
+.even{
+    transform: scaleX(-1);
+}
+
+.img-overlay-odd{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(252,38,76,1) 5%, rgba(0,0,0,0) 50%);
+}
+
+.img-overlay-even{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(252,38,76,1) 5%, rgba(0,0,0,0) 50%);
+}
+
